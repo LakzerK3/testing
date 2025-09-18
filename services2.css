@@ -121,6 +121,20 @@ nav a:hover {
   color: #000;
   font-size: 20px;
 }
+.btn {
+  display: inline-block;
+  background: #b30000;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #800000;
+}
 /* Fire Extinguishers Section */
 .fire-extinguishers {
   padding: 3rem 0;
