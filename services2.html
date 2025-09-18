@@ -12,7 +12,7 @@
     <div class="container header-content">
       <div class="logo">International Fire Protection Systems</div>
       
-        <button class="menu-toggle" aria-label="Toggle menu">
+       <button class="menu-toggle" aria-label="Toggle menu">
       ☰
     </button>
       <nav>
@@ -61,7 +61,28 @@ All of our systems are installed to meet Specialty Dual Fire Protection Systems 
       </div>
     </div>
   </section>
-
+  <section class="fire-extinguishers">
+    <div class="container box">
+      <h2>Fire Alarms & Emergency Lighting</h2>
+      <div class="fire-extinguishers-content">
+        <p>
+          We provide professional installation, inspection, and maintenance of fire alarm systems and emergency lighting for both homes and businesses. These systems are essential for early detection, safe evacuation, and fast response, helping to protect people and property. Our team ensures every installation meets code requirements and is tailored to your needs, giving you complete peace of mind.
+        </p>
+        <img src="firealarmsystem.jpg" alt="Sprinkler">
+      </div>
+    </div>
+  </section>
+<section class="fire-extinguishers">
+    <div class="container box">
+      <h2>Backflow Systems</h2>
+      <div class="fire-extinguishers-content">
+        <p>
+          We provide professional installation, inspection, and maintenance of fire alarm systems and emergency lighting for both homes and businesses. These systems are essential for early detection, safe evacuation, and fast response, helping to protect people and property. Our team ensures every installation meets code requirements and is tailored to your needs, giving you complete peace of mind.
+        </p>
+        <img src="firealarmsystem.jpg" alt="Sprinkler">
+      </div>
+    </div>
+  </section>
 
 
 
@@ -84,5 +105,14 @@ All of our systems are installed to meet Specialty Dual Fire Protection Systems 
       </div>
     </div>
   </footer>
+  <script>
+  // Mobile nav toggle
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
 </body>
 </html>

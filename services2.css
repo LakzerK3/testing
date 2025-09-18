@@ -61,6 +61,7 @@ nav a {
 nav a:hover {
   color: #ffd6d6;
 }
+
 /* Hamburger button */
 .menu-toggle {
   display: none;
@@ -158,7 +159,7 @@ nav a:hover {
 
 .fire-extinguishers-content img {
   flex: 1;
-  max-width: 150px;
+  max-width: 180px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -213,9 +214,8 @@ footer {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* Stack footer on mobile */
 @media (max-width: 768px) {
-  .hero-content,
   .footer-content {
     flex-direction: column;
     align-items: center;
