@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Fire Protection Systems</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="container header-content">
+    <div class="logo">International Fire Protection Systems</div>
+
+    <!-- Hamburger Menu Button -->
+    <button class="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services2.html">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>International Fire Protection Systems</h1>
+      <p>Protecting lives and property with world-class fire safety solutions.<br>
+        Phone: (520)604-6425</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section class="introduction">
+  <div class="container box">
+    <h2>About us</h2>
+    <p style="font-size: 1.2rem;">
+      At International Fire Protection Systems, we have over XX years of experience delivering certified fire safety products and comprehensive maintenance services...
+    </p>
+  </div>
+</section>
+
+<!-- Services -->
+<div class="service-grid">
+  <div class="card">
+    <img src="extinguishers.jpg" alt="Fire extinguishers">
+    <h3>Fire Extinguishers</h3>
+    <p>Installing and maintaining extinguishers that meet international safety standards...</p>
+  </div>
+  <div class="card">
+    <img src="sprinklersystems.jpg" alt="Sprinkler systems">
+    <h3>Sprinkler Systems</h3>
+    <p>Design and installation of modern sprinkler systems...</p>
+  </div>
+  <div class="card">
+    <img src="maintenance.jpg" alt="Service & Maintenance">
+    <h3>Service & Maintenance</h3>
+    <p>Ongoing inspections and support to ensure all systems remain fully operational...</p>
+  </div>
+</div>
+
+<!-- Why Choose Us -->
+<section class="why-us">
+  <div class="container">
+    <h2>Why Choose Us?</h2>
+    <div class="why-grid">
+      <div class="card">
+        <h3>Experience Information</h3>
+        <p>For years, we’ve been delivering high-quality fire safety solutions...</p>
+      </div>
+      <div class="card">
+        <h3>Compliant with Regulations</h3>
+        <p>All products and services meet or exceed safety codes worldwide.</p>
+      </div>
+      <div class="card">
+        <h3>Communication Methods</h3>
+        <p>Clear and responsive communication from project start to finish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container box">
+    <h2>Contact Us</h2>
+     <p style="font-size: 1.2rem;">
+      Get in touch with our team today.<br>
+      Phone: (520)604-6425<br>
+      Email: companyemail@gmail.com
+    </p>
+    <a href="mailto:info@fireprotect.com" class="btn">Email Us</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container footer-content">
+    <div class="footer-info">
+      <p><strong>Contact & Business Information</strong><br>
+      Company address, Street, Arizona<br>
+      companyemail@gmail.com | Phone: (520)604-6425</p>
+    </div>
+    <div class="footer-center">
+      <p>&copy; 2025 IFPS. All rights reserved.</p>
+    </div>
+    <div class="footer-nav">
+      <a href="index.html">Home</a> | 
+      <a href="services.html">Services</a> | 
+      <a href="#contact">Contact</a> | 
+      <a href="#gallery">Gallery</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
